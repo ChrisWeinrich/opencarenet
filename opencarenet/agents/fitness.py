@@ -4,7 +4,7 @@
 class FitnessAgent:
     """An agent that provides fitness-related actions."""
 
-    def act(self, observation: str) -> str:
+    def act(self: "FitnessAgent", observation: str) -> str:
         """Return a fitness recommendation based on the observation.
 
         Args:
@@ -16,5 +16,6 @@ class FitnessAgent:
             str: A string with a fitness recommendation.
 
         """
+        _ = observation  # unused argument
         # Placeholder logic
         return "Remember to take a walk today!"

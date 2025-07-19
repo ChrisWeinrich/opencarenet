@@ -6,7 +6,7 @@ from typing import Protocol
 class Agent(Protocol):
     """Protocol for all agents in the opencarenet.agents package."""
 
-    def act(self, observation: str) -> str:
+    def act(self: "Agent", observation: str) -> str:
         """Take an action based on the given observation.
 
         Args:
