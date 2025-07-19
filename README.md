@@ -29,6 +29,12 @@ OpenCareNet is a modular, open-source framework for building health assistant ag
     poetry run pytest
     ```
 
+4. **Serve docs locally:**
+
+    ```bash
+    poetry run mkdocs serve
+    ```
+
 ---
 
 ## Code Quality & Typing
@@ -40,3 +46,5 @@ OpenCareNet is a modular, open-source framework for building health assistant ag
 ---
 
 🚧 Work in progress.
+
+📖 Official documentation: https://chrisweinrich.github.io/opencarenet/
