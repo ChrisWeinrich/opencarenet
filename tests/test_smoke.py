@@ -1,7 +1,5 @@
 """Smoke test for FitnessAgent."""
 
-import pytest
-
 from opencarenet.agents.fitness import FitnessAgent
 
 
