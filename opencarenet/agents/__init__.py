@@ -1,1 +1,1 @@
-# placeholder
+"""opencarenet.agents subpackage."""

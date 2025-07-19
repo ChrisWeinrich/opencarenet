@@ -1,1 +1,1 @@
-# placeholder
+"""opencarenet package root."""
