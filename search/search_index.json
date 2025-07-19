@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"OpenCareNet","text":"<p>Welcome to the OpenCareNet documentation.</p> <p>This site is powered by MkDocs and the Material for MkDocs theme.</p> <p>Stay tuned for more content!</p>"}]}
