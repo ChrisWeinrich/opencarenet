@@ -1,11 +1,13 @@
+"""Smoke test for FitnessAgent."""
+
 import pytest
 
 from opencarenet.agents.fitness import FitnessAgent
 
 
-@pytest.mark.asyncio()
-async def test_fitness_agent_handle_ping_returns_nonempty_string():
+def test_fitness_agent_act_returns_nonempty_string() -> None:
+    """Test that FitnessAgent.act returns a non-empty string."""
     agent = FitnessAgent()
-    result = await agent.handle("ping")
+    result = agent.act("ping")
     assert isinstance(result, str)
     assert result.strip() != ""
