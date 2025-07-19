@@ -22,11 +22,11 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Build and deploy
+      - name: Build docs
+        run: mkdocs build --clean --site-dir site
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-        env:
-          # Build the docs before deploying
-          MKDOCS_BUILD: mkdocs build
+          publish_dir: site
