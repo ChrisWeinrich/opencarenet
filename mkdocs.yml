@@ -1,1 +1,5 @@
-# placeholder
+site_name: OpenCareNet
+theme:
+  name: material
+nav:
+  - Home: index.md
