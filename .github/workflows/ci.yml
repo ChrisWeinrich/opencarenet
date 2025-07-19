@@ -31,6 +31,9 @@ jobs:
           restore-keys: |
             poetry-venv-${{ runner.os }}-
 
+      - name: Sync Poetry configuration
+        run: poetry lock
+
       - name: Install dependencies
         run: poetry install
 
